@@ -2,7 +2,7 @@ var btnNew = document.getElementById('btnAdd');
 
 //btnNew.onclick = addNewItem;
 btnNew.onclick = function() {
-    var inputText = document.getElementById('intputText');
+    var inputText = document.getElementById('inputText');
     var itemText = inputText.value;
     
     if(!itemText || itemText === "" || itemText === " ")
